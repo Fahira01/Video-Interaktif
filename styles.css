@@ -1,0 +1,87 @@
+:root {
+    --warna-utama: #3498db;
+    --warna-utama-hover: #2e6da4;
+    --warna-latar: #f9f9f9;
+    --warna-teks: #333;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--warna-latar);
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.video-container {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.options {
+    margin-top: 20px;
+}
+
+.options button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--warna-utama);
+    color: #fff;
+    cursor: pointer;
+}
+.options button:hover {
+    background-color: var(--warna-utama-hover);
+}
+
+.diagram-alur-cerita {
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+    
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.diagram-alur-cerita h2 {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: var(--warna-utama);
+    display: block;
+    margin-top: 20px; 
+}
+
+.diagram-alur-cerita img {
+    width: 99%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+    background-color: var(--warna-utama);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--warna-utama-hover);
+}
+
