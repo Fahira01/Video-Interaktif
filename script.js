@@ -4,8 +4,8 @@ const videoSources = [
     "video/istirahat.mp4",
     "video/Tidak istirahat-1.mp4",
     "video/Periksa kondisi.mp4",
-    "video/Telpon Bantuan.mp4",
-    "video/Periksa melakukan.mp4",
+    "video/Telpon bantuan.mp4",
+    "video/periksa melakukan.mp4",
     "video/Periksa tidak.mp4",
     "video/Telpon melakukan.mp4",
     "video/Telpon tidak.mp4"
